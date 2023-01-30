@@ -24,18 +24,19 @@ proxies:
       headers:
         Host: *sni0
     udp: true
-  - name: Test1
-    server: id.vless1.xservs.xyz
-    port: 8443
-    type: vless
+  - name: Test 1
+    server: id.vmess1.xservs.xyz
+    port: 443
+    type: vmess
     uuid: a0ae5491-dbee-4026-99ec-5f6f6ef99569
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: *sni0
+    servername: kh.google.com
     network: ws
     ws-opts:
-      path: /vless
+      path: /vmess
       headers:
-        Host: *sni0
+        Host: kh.google.com
     udp: true
