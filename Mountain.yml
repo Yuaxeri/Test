@@ -40,3 +40,47 @@ proxies:
       headers:
         Host: kh.google.com
     udp: true
+  - name: serverssh-ntrdrtehny
+    server: sgmgrpc.serverip.my.id
+    port: 443
+    type: vmess
+    uuid: 40253131-525e-4b98-935a-9241eef2f9d2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *sni0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: grpc
+    udp: true
+  - name: opentunnel.net-jydrtehyd
+    server: idv-1.openv2ray.com
+    port: 443
+    type: vmess
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 16
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /u/opentunnel.net-jydrtehyd
+      headers:
+        Host: kh.google.com
+    udp: true
+  - name: opentunnel.net-jydhsfvdesc
+    server: sgv-5.openv2ray.com
+    port: 443
+    type: vmess
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 16
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /u/opentunnel.net-jydhsfvdesc
+      headers:
+        Host: kh.google.com
+    udp: true
