@@ -1,0 +1,26 @@
+SNI:
+  - &sni0 kh.google.com
+  
+  
+  
+  
+  
+
+
+proxies:
+  - name: test
+    server: id01-vmess.realssh.xyz
+    uuid: 67a31786-ac36-414e-8121-282f39deeb11
+    type: vmess
+    port: 443
+    alterId: 0
+    tls: true
+    cipher: auto
+    skip-cert-verify: true
+    servername: *sni0
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: *sni0
+    udp: true
