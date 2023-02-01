@@ -86,3 +86,19 @@ proxies:
       headers:
         Host: kh.google.com
     udp: true
+  - name: addwax
+    server: id-2.0rd.net
+    port: 443
+    type: vmess
+    uuid: 720edc60-a1dc-11ed-b732-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: kh.google.com
+    network: ws
+    ws-opts:
+      path: /m0hongsw
+      headers:
+        Host: kh.google.com
+    udp: true
