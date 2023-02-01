@@ -87,7 +87,7 @@ proxies:
         Host: kh.google.com
     udp: true
   - name: addwax
-    server: id-2.0rd.net
+    server: 103.180.125.173
     port: 443
     type: vmess
     uuid: 720edc60-a1dc-11ed-b732-205c6d5f5d78
