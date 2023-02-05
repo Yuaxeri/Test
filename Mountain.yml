@@ -130,3 +130,16 @@ proxies:
       headers:
         Host: kh.google.com
     udp: true
+  - name: tbres
+    server: idtj-ikd.bonds.id
+    port: 443
+    type: trojan
+    password: f3bd26e0-a500-11ed-99cc-1239d0255272
+    skip-cert-verify: true
+    sni: kh.google.com
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: idtj-ikd.bonds.id
+    udp: true
